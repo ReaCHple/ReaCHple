@@ -9,6 +9,23 @@ h1{
 h2{
     color: whitesmoke;
 }
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(0, 0, 0);
+    }
+
 .projects { 
     display:flex;  
     flex-wrap:wrap; } /* condensed to save space */
