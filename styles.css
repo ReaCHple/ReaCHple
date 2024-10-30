@@ -9,12 +9,13 @@ h1{
 h2{
     color: whitesmoke;
 }
-h2{
-    width: 30%;
+h2 img{
+    width: 300px;
+    height: 300px;
     margin: 10px;
-    padding: 20px 10px;
-    background: rgb(0, 0, 0); /* pick a color */
-    border-radius: 25%;
+    border: 2px solid rgb(0, 0, 0); /* choose a color */
+    display: block;
+    margin: auto;;
     color: whitesmoke;
 }
 
