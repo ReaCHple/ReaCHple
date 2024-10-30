@@ -9,6 +9,14 @@ h1{
 h2{
     color: whitesmoke;
 }
+h2{
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: rgb(0, 0, 0); /* pick a color */
+    border-radius: 25%;
+    color: whitesmoke;
+}
 
 .about{
     display:flex;
