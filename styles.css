@@ -9,31 +9,36 @@ h1{
 h2{
     color: whitesmoke;
 }
-h2 img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid rgb(0, 0, 0); /* choose a color */
+
+.about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
     display: block;
-    margin: auto;;
+    margin: auto;
     color: whitesmoke;
-}
+    }
 
 .about{
-    display:flex;
-    flex-wrap:wrap;
-    margin-right: 100px;
-    margin-left: 100px;
-    justify-content: center;
+    display:flex;  
+    flex-wrap:wrap; 
+    width: 40%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: rgb(0, 0, 0); 
+    border-radius: 25%;
+    color: whitesmoke;
+    }
+
+.skills{
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 25%;
     color: whitesmoke;
 }
-
-.about img {
-    width: 150px;
-    height: 200px;
-    border-radius: 25%;
-    border: 2px solid rgb(0, 0, 0);
-    }
 
 .projects { 
     display:flex;  
@@ -56,6 +61,3 @@ h2 img{
     margin: auto;;
     color: whitesmoke;
     }
-.about{
-    
-}
